@@ -1,0 +1,13 @@
+<html>
+	<title>The result Page</title>
+	<body>
+		<table border=2> 
+			{% for k,v in result.items() %}
+			<tr>
+				<th>{{k}}</th>
+				<td>{{v}}</td>
+			</tr>	
+			{% endfor %}
+		</table>
+	</body>
+</html>
